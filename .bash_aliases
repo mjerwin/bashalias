@@ -6,3 +6,4 @@ alias test="./vendor/bin/phpunit"
 alias contains='_(){ git tag --contains $1; }; _'
 alias unmerged='_(){ git branch -r --no-merged  $1; }; _'
 alias conflicts='git diff --name-only --diff-filter=U'
+alias dockc='docker-compose'
