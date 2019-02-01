@@ -11,3 +11,5 @@ alias conflicts='git diff --name-only --diff-filter=U'
 composer-link() {  
     composer config repositories.local '{"type": "path", "url": "'$1'"}' --file composer.json
 }
+
+alias dockc='docker-compose'
